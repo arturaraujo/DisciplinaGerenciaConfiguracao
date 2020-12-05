@@ -1,7 +1,6 @@
 package tests;
 
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 import classes.Valores;
@@ -9,7 +8,7 @@ import interfaces.ValoresItf;
 
 public class Tests {
 	
-	@Before
+	// @Before
 	public void before() {
 		
 	}
