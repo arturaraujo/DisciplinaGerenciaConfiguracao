@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="VIRTUS01-PC" name="tests.Tests" skipped="0" tests="6" time="0.192" timestamp="2020-12-05T17:50:39">
+<testsuite errors="0" failures="0" hostname="VIRTUS01-PC" name="tests.Tests" skipped="0" tests="6" time="0.126" timestamp="2020-12-05T18:11:25">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="C:\Users\artur.araujo\eclipse-workspace\GerenciaConfiguracao\lib" />
@@ -51,7 +51,7 @@
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1607190631764 -Declipse.connect.port=57193 -Declipse.pdebuild.home=C:\Users\artur.araujo\eclipse\jee-2019-122\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.10.600.v20191011-0535\. -Declipse.pdebuild.scripts=C:\Users\artur.araujo\eclipse\jee-2019-122\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.10.600.v20191011-0535\scripts -Declipse.pdebuild.templates=C:\Users\artur.araujo\eclipse\jee-2019-122\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.10.600.v20191011-0535\templates -Dant.home=C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\artur.araujo\eclipse-workspace\GerenciaConfiguracao\build02.xml main" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1607191879724 -Declipse.connect.port=60152 -Declipse.pdebuild.home=C:\Users\artur.araujo\eclipse\jee-2019-122\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.10.600.v20191011-0535\. -Declipse.pdebuild.scripts=C:\Users\artur.araujo\eclipse\jee-2019-122\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.10.600.v20191011-0535\scripts -Declipse.pdebuild.templates=C:\Users\artur.araujo\eclipse\jee-2019-122\eclipse\..\..\..\.p2\pool\plugins\org.eclipse.pde.build_3.10.600.v20191011-0535\templates -Dant.home=C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\artur.araujo\eclipse-workspace\GerenciaConfiguracao\build02.xml main" />
     <property name="java.class.path" value="C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-antlr.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-apache-bcel.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-apache-bsf.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-apache-log4j.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-apache-oro.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-apache-regexp.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-apache-resolver.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-apache-xalan2.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-commons-logging.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-commons-net.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-imageio.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-jai.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-javamail.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-jdepend.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-jmf.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-jsch.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-junit.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-junit4.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-junitlauncher.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-launcher.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-netrexx.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-swing.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-testutil.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant-xz.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.apache.ant_1.10.7.v20190926-0324\lib\ant.jar;C:\Users\artur.araujo\eclipse\jee-2019-122\eclipse\configuration\org.eclipse.osgi\90\0\.cp\lib\antdebug.jar;C:\Users\artur.araujo\eclipse\jee-2019-122\eclipse\configuration\org.eclipse.osgi\90\0\.cp\lib\remote.jar;C:\Users\artur.araujo\eclipse\jee-2019-122\eclipse\configuration\org.eclipse.osgi\91\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_221\lib\tools.jar;C:\Users\artur.araujo\.p2\pool\plugins\org.eclipse.swt.win32.win32.x86_64_3.113.0.v20191204-0601.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.10.7 compiled on September 1 2019" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -76,14 +76,14 @@
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="main" />
   </properties>
-  <testcase classname="tests.Tests" name="adicionarValorValido" time="0.023" />
-  <testcase classname="tests.Tests" name="adicionarValorMenorQueZero" time="0.0" />
+  <testcase classname="tests.Tests" name="adicionarValorValido" time="0.024" />
+  <testcase classname="tests.Tests" name="adicionarValorMenorQueZero" time="0.001" />
   <testcase classname="tests.Tests" name="removerComSucesso" time="0.0" />
-  <testcase classname="tests.Tests" name="testarTamanhoComSucesso" time="0.001" />
+  <testcase classname="tests.Tests" name="testarTamanhoComSucesso" time="0.0" />
   <testcase classname="tests.Tests" name="adicionarZero" time="0.0" />
   <testcase classname="tests.Tests" name="removerDeListaVazia" time="0.0" />
-  <system-out><![CDATA[4.2352366536469885
-5
+  <system-out><![CDATA[7.865705066024299
+8
 -1
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

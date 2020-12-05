@@ -6,14 +6,12 @@
 	<property name="jar.dir" location="jar"/>
 	<property name="reports.dir" location="testreport"/>
 
-	<junit printsummary="yes" haltonfailure="yes">
-		<classpath id="master-classpath">
-			<fileset dir="${lib.dir}">
-				<include name="**/junit-4.13.1.jar" />
-				<include name="**/hamcrest-all-1.3.jar" />
-			</fileset>
-		</classpath>
-	</junit>
+	<path id="master-classpath">
+		<fileset dir="${lib.dir}">
+			<include name="**/junit-4.13.1.jar" />
+			<include name="**/hamcrest-all-1.3.jar" />
+		</fileset>
+	</path>
 
 	<target name="clean">
 		<delete dir="${build.dir}" />
@@ -54,7 +52,7 @@
 			<classpath>
 				<pathelement location="${build.dir}"/>
 			</classpath>
-			
+
 			<formatter type="plain" />
 			<formatter type="xml" />
 
