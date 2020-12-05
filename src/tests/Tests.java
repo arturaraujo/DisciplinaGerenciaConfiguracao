@@ -1,12 +1,18 @@
 package tests;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
 
 import classes.Valores;
 import interfaces.ValoresItf;
-import org.junit.Assert;
 
 public class Tests {
+	
+	@Before
+	public void before() {
+		
+	}
 	
 	@Test
 	public void adicionarValorValido() {
@@ -14,7 +20,7 @@ public class Tests {
 		Double valorAbsoluto = Math.abs(random);
 		Integer inteiro = valorAbsoluto.intValue();
 		
-		inteiro++; // Garantindo que será maior que zero
+		inteiro++; // Garantindo que sera maior que zero
 		
 		System.out.println(random);
 		System.out.println(inteiro);
@@ -40,12 +46,12 @@ public class Tests {
 		Integer inteiro = valorAbsoluto.intValue();
 		
 		inteiro = inteiro * -1;
-		inteiro--; // Garantindo que será menor que zero
+		inteiro--; // Garantindo que sera menor que zero
 		
 		System.out.println(inteiro);
 		
 		ValoresItf valores = new Valores();
-		Boolean retorno = valores.ins(inteiro);
+		boolean retorno = valores.ins(inteiro);
 		
 		Assert.assertFalse(retorno);
 	}
